@@ -17,3 +17,6 @@
 @import url(../blocks/content/intro/__quote-author/intro__quote-author.css);
 @import url(../blocks/content/intro/__paragraph/intro__paragraph.css);
 @import url(../blocks/content/intro/__title/intro__title.css);
+
+@import url(../blocks/content/photo-grid/photo-grid.css);
+@import url(../blocks/content/photo-grid/__item/photo-grid__item.css);

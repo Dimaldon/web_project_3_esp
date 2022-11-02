@@ -1,0 +1,22 @@
+.photo-grid {
+  display: flex;
+  max-width: 320px;
+  flex-wrap: wrap;
+  row-gap: 12px;
+  justify-content: center;
+  margin: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .photo-grid {
+    max-width: 768px;
+    gap: 16px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .photo-grid {
+    max-width: 1280px;
+    gap: 16px;
+  }
+}
