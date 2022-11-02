@@ -1,0 +1,21 @@
+.intro__container {
+  padding-top: 0.56rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 2.37rem;
+}
+
+@media screen and (min-width: 768px) {
+  .intro__container {
+    padding: 0 1.5rem;
+    padding-bottom: 4rem;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .intro__container {
+    padding-bottom: 5.75rem;
+    padding-left: 9.25rem;
+    padding-right: 25.62rem;
+  }
+}

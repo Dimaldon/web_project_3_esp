@@ -1,10 +1,11 @@
+@font-face {
+  font-family: "Inter";
+  src: url("fonts/Inter-Regular.woff");
+}
+
 .root {
-  min-width: 1100px;
-  /* we don't know how to make mobile versions of websites yet, */
-  /* so here we've set a minimum page width */
-  max-width: 1600px;
-  /* here we've set a maximum page width */
+  background-color: #2a2c2f;
   margin: 0 auto;
-  /* this ensures that all content is centered on screens wider than 1600px */
-  font-family: "Helvetica Neue", Arial, sans-serif;
+  padding: 0;
+  box-sizing: border-box;
 }
