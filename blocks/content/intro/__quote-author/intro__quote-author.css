@@ -11,3 +11,10 @@
 .intro__quote-author::before {
   content: "— ";
 }
+
+@media screen and (min-width: 768px) {
+  .intro__quote-author {
+    padding-bottom: 32px;
+    transform: translateY(-24px);
+  }
+}

@@ -1,0 +1,19 @@
+.button__paragraph-button {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .button__paragraph-button {
+    font-size: 14px;
+    line-height: 17px;
+  }
+}

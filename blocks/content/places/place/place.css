@@ -1,0 +1,22 @@
+.place {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas:
+    "title website"
+    "image content"
+    "boton .";
+  row-gap: 48px;
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    width: 288px;
+    grid-template-areas:
+      "title"
+      "website"
+      "image"
+      "content"
+      "boton";
+    row-gap: 30px;
+  }
+}
