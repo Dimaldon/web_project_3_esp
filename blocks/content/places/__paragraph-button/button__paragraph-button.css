@@ -10,9 +10,6 @@
   padding: 13px 20px;
   border-radius: 4px;
   text-decoration: none;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
 .button__paragraph-button:hover {

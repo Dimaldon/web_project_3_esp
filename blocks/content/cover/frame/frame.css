@@ -4,9 +4,18 @@
   font-weight: 600;
   font-size: 18px;
   line-height: 22px;
+  text-align: center;
   color: #ffffff;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  padding-bottom: 256px;
+  background: #0278fe;
+  padding: 13px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.frame:hover {
+  background-color: #0063d2;
+}
+
+.frame:active {
+  background-color: #0278fe;
 }

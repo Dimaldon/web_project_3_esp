@@ -7,7 +7,11 @@
   text-align: center;
   color: #ffffff;
   margin: 0;
-  padding-top: 243px;
-  padding-right: 264px;
-  padding-left: 264px;
+}
+
+@media screen and (max-width: 768px) {
+  .cover__title {
+    font-size: 32px;
+    line-height: 35px;
+  }
 }

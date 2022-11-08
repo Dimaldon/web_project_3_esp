@@ -3,10 +3,13 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-  max-width: 1184px;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+@media screen and (max-width: 1280px) {
+  .cover {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
