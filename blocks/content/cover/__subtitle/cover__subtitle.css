@@ -1,16 +1,12 @@
-.place__artist {
+.cover__subtitle {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 122%;
+  text-align: center;
   color: #ffffff;
   margin: 0;
-}
-
-@media screen and (max-width: 768px) {
-  .place__artist {
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
+  padding-top: 32px;
+  padding-bottom: 32px;
 }

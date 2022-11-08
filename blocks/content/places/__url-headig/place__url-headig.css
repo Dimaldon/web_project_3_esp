@@ -9,3 +9,10 @@
   color: #aaaaaa;
   margin: 0;
 }
+
+@media screen and (max-width: 768px) {
+  .place__url-headig {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}

@@ -6,14 +6,29 @@
   line-height: 22px;
   text-align: center;
   color: #ffffff;
+  background: #0278fe;
+  padding: 13px 20px;
+  border-radius: 4px;
+  text-decoration: none;
   flex: none;
   order: 0;
   flex-grow: 0;
+}
+
+.button__paragraph-button:hover {
+  background-color: #0063d2;
+}
+
+@media screen and (max-width: 1280px) {
+  .button__paragraph-button {
+    padding: 13px 15px;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .button__paragraph-button {
     font-size: 14px;
     line-height: 17px;
+    padding: 13px 24px;
   }
 }
